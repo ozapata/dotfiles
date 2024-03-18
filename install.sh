@@ -30,9 +30,9 @@ done
 ./brew.sh
 
 # Run VS Code Script
-./vscode.sh
+#./vscode.sh
 
 # Run the Sublime Script
-./sublime.sh
+#./sublime.sh
 
 echo "Installation Complete!"
