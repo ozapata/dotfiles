@@ -29,14 +29,18 @@ brew cleanup
 
 # Define an array of packages to install using Homebrew.
 packages=(
-    "python"
     "bash"
     "zsh"
     "git"
     "tree"
     "pylint"
     "black"
-    "node"
+    "pyenv"
+    "jenv"
+    "rbenv"
+    "goenv"
+    "htop"
+    "tldr"
 )
 
 # Loop over the array to install each application.
@@ -78,16 +82,11 @@ apps=(
     "google-chrome"
     "firefox"
     "brave-browser"
-    "sublime-text"
-    "visual-studio-code"
-    "virtualbox"
-    "spotify"
-    "discord"
     "google-drive"
-    "gimp"
     "vlc"
     "rectangle"
     "postman"
+    "docker"
 )
 
 # Loop over the array to install each application.
